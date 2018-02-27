@@ -1,6 +1,6 @@
                         //Menu
 
-function getMenu(){
+/*function getMenu(){
     
     var x = document;
     
@@ -23,6 +23,23 @@ function getMenu(){
 
 getMenu();
 
+*/
+
+function menu(){
+    
+    var icon = document.getElementById("menu-icon");
+    
+    icon.onclick = function(){
+        
+        var menu = document.getElementById("getMenu");
+        menu.style.display="-webkit-box";
+        menu.style.display="flex";
+        
+    }
+    
+}
+
+menu();
 
 
 
