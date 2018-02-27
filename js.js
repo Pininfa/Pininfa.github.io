@@ -1,10 +1,10 @@
                         //Menu
 
-/*function getMenu(){
+function getMenu(){
     
     var x = document;
     
-    x.onclick = function (event){
+    x.touchstart = function (event){
         
         var evt = event.target;
         
@@ -23,9 +23,8 @@
 
 getMenu();
 
-*/
 
-function menu(){
+/*function menu(){
     
     var icon = document.getElementById("menu-icon");
     
@@ -41,7 +40,7 @@ function menu(){
 
 menu();
 
-
+*/
 
     //window
 
