@@ -4,7 +4,7 @@ function getMenu(){
     
     var x = document;
     
-    x.onclick = function (event){
+    x.touchstart = function (event){
         
         var evt = event.target;
         
