@@ -4,19 +4,20 @@ function getMenu(){
     
     var x = document;
     
-    x.touchstart = function (event){
+    x.onclick = function (event){
         
         var evt = event.target;
         
         var y = document.getElementById("getMenu");
         
         if(evt.id == "menu-icon"){    
-         return   y.style.display="flex";
+            y.style.display="flex";
         }
-            
-        if(evt.id != "menu-icon" ){
-          return   y.style.display="";
+              
+        else if(evt.id != "menu-icon" ){
+            y.style.display="";
         }
+        
     }
     
 }
@@ -24,23 +25,7 @@ function getMenu(){
 getMenu();
 
 
-/*function menu(){
-    
-    var icon = document.getElementById("menu-icon");
-    
-    icon.onclick = function(){
-        
-        var menu = document.getElementById("getMenu");
-        menu.style.display="-webkit-box";
-        menu.style.display="flex";
-        
-    }
-    
-}
 
-menu();
-
-*/
 
     //window
 
