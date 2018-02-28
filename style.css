@@ -110,6 +110,9 @@ header{
     color:#fff;
     transition: 0.5s;
 }
+#menu-icon{
+    cursor: pointer;
+}
 
 
                 /*media-HEADER*/
