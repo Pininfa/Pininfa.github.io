@@ -1,0 +1,363 @@
+/*max-width 1366px*/
+@media screen and (max-width:1366px){
+            /*menu*/
+     .contact{
+        margin-left: 30px;
+    }
+    .search{
+        margin-left: 73px;
+}
+
+/*max-width 1285px*/
+@media screen and (max-width:1286px){
+        /*header*/
+    header .center{
+        padding: 0 2.5% 24px 2.5%;
+    }
+    
+                /*equipment-block*/
+.equipment-block {
+    justify-content: space-between;
+    padding: 0 2.5%;
+    }
+
+                 /*equipment-box*/
+    
+.equipment-box{
+    width:28%;
+}
+
+.equipment-box{
+    margin-right: 0;    
+    }
+}
+
+/*max-width 1269px*/
+@media screen and (max-width:1269px){
+            /*menu*/
+     .menu{
+        display: none;
+    }
+    .icon-menu__bar{
+        cursor: pointer;
+        font-size: 45px;
+    }
+     .contact{
+        margin-left: 15%;
+    }
+    .search{
+        margin-left: 15%;
+    }
+    .icon-menu{
+        display: block;
+        margin:43px 0 0 10%;
+        
+    }
+    
+}
+
+            /*max-width:1207px*/
+
+@media screen and (max-width:1207px){
+        /*margin for icon-menu*/
+  .icon-menu{
+        margin:43px 0 0 9%;
+        
+    }
+}
+
+            /*max-width:1187px*/
+
+@media screen and (max-width:1187px){
+            /*margin for search*/
+    .search{
+        margin-left: 10%;
+    }
+}
+
+
+                /*max-width:1099px*/
+
+@media screen and (max-width:1099px){
+        /*margin for contact*/
+     .contact{
+        margin-left: 10%;
+    }
+                  /*equipment-box*/
+    
+    .equipment-box{
+    width:45%;
+}
+    .equipment-box__title{
+        text-align: center;
+    } 
+    
+}
+ /*max-width:1024px*/
+
+@media screen and (max-width:1024px){
+    /*margin for search*/
+    .search{
+        margin-left: 10%;
+    }
+    /*margin for icon-menu*/
+    .icon-menu{
+        margin:43px 0 0 9%;
+        
+    }
+    
+}
+
+            /*max-width:1020px*/
+@media screen and (max-width:1020px){
+        /*margin for contact*/
+      .contact{
+        margin-left: 8%;
+    }
+    /*margin for search*/
+    .search{
+        margin-left: 8%;
+    }
+    /*margin for icon-menu*/
+    .icon-menu{
+        margin:43px 0 0 8%;
+        
+    }
+    /*equipment__title*/
+    .equipment__title{
+        font-size:2rem;
+    }
+    
+}
+    /*max-width:953px*/
+@media screen and (max-width:953px){
+      .contact{
+        margin-left: 7%;
+    }
+    /*margin for search*/
+    .search{
+        margin-left: 7%;
+    }
+    /*margin for icon-menu*/
+    .icon-menu{
+        margin:43px 0 0 7%;
+        
+    }
+     }
+
+                /*max-width:950px*/
+
+@media screen and (max-width:950px){
+    
+                  /*equipment-box*/
+    .equipment-block {
+    justify-content:center;
+    }
+    
+    .equipment-box{
+    width:60%;
+}
+    
+    
+}
+    
+   /*max-width:411px*/
+    
+  @media screen and (max-width:411px){
+    
+                  /*header*/
+                /*.logo__img*/
+      header .center{
+          position: relative;
+      }
+      .logo__img{
+          width: 55%;
+          height: auto;
+      }
+      .company-name {
+          margin: 30px 0 0 -8px;
+      }
+      .company-name__title{
+          font-size:2.7rem;   
+      }
+      .company-name__description{
+          font-size:0.6rem;
+      }
+      .icon-menu{
+          position: absolute;
+          top:-4%;
+          left:76%;
+      }
+      
+      .contact{
+            margin-left: 12%;
+}
+
+      .number-phone__link{
+            font-size: 2rem;
+      }
+      .adress__text {
+    font-size: 1.2rem;
+}
+      .schedule__text {
+    font-size: 1.2rem;
+}
+      .search {
+          margin:26px 0 0 43px; 
+}
+      .search__text {
+    font-size: 1.2rem;
+}
+}    
+    
+    
+    
+
+      /*max-width:375px*/
+    
+@media screen and (max-width:375px){
+    
+                  /*header*/
+                /*.logo__img*/
+      header .center{
+          position: relative;
+      }
+      .logo__img{
+          width: 50%;
+          height: auto;
+      }
+      .company-name {
+          margin: 30px 0 0 -36px;
+      }
+      .company-name__title{
+          font-size:2.4rem;   
+      }
+      .company-name__description{
+          font-size:0.5rem;
+      }
+      .icon-menu{
+          position: absolute;
+          top:-4.5%;
+          left:76%;
+      }
+      
+      .contact{
+            margin-left: 12%;
+}
+
+      .number-phone__link{
+            font-size: 1.8rem;
+      }
+      .adress__text {
+    font-size: 1rem;
+}
+      .schedule__text {
+    font-size: 1rem;
+}
+      .search {
+          margin:20px 0 0 34px; 
+}
+}   
+    
+    
+    
+    
+    
+    /*max-width:360px*/
+    
+  @media screen and (max-width:360px){
+    
+                  /*header*/
+                /*.logo__img*/
+      header .center{
+          position: relative;
+      }
+      .logo__img{
+          width: 50%;
+          height: auto;
+      }
+      .company-name {
+          margin: 30px 0 0 -36px;
+      }
+      .company-name__title{
+          font-size:2.4rem;   
+      }
+      .company-name__description{
+          font-size:0.5rem;
+      }
+      .icon-menu{
+          position: absolute;
+          top:-4.5%;
+          left:76%;
+      }
+      
+      .contact{
+            margin-left: 12%;
+}
+
+      .number-phone__link{
+            font-size: 1.8rem;
+      }
+      .adress__text {
+    font-size: 1rem;
+}
+      .schedule__text {
+    font-size: 1rem;
+}
+      .search {
+          margin:20px 0 0 34px; 
+}
+} 
+     
+    
+                    /*max-width:320px*/
+    
+  @media screen and (max-width:320px){
+    
+                  /*header*/
+                /*.logo__img*/
+      header .center{
+          position: relative;
+      }
+      .logo__img{
+          width: 50%;
+          height: auto;
+      }
+      .company-name {
+          margin: 30px 0 0 -36px;
+      }
+      .company-name__title{
+          font-size:2.4rem;   
+      }
+      .company-name__description{
+          font-size:0.5rem;
+      }
+      .icon-menu{
+          position: absolute;
+          top:-4.5%;
+          left:76%;
+      }
+      
+      .contact{
+            margin-left: 12%;
+}
+
+      .number-phone__link{
+            font-size: 1.8rem;
+      }
+      .adress__text {
+    font-size: 1rem;
+}
+      .schedule__text {
+    font-size: 1rem;
+}
+      .search {
+          margin:20px 0 0 34px; 
+}
+} 
+    
+    
+    
+
+    
+
