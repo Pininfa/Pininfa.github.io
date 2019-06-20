@@ -1,0 +1,19 @@
+ /*max-width:1023px*/
+    @media screen and (max-width:1023px){
+        .wrapper{
+            flex-direction:column;
+        }
+        /*width block-left*/
+        .block-left{
+            order:2;
+    width:100%;
+}
+        /*height sitebar*/
+        
+        .sitebar{
+            width: 100%;
+            order:1;
+            height: 150px;
+        }
+        
+    }
