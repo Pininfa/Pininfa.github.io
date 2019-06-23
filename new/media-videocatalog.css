@@ -1,0 +1,8 @@
+/*max-width:1286*/
+
+@media screen and (max-width:1286px){
+    .videocatalog__center{
+        padding-left:1%;
+        padding-right:1%;
+    }
+}

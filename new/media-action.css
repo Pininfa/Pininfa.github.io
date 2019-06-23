@@ -1,0 +1,17 @@
+/*max-width:1286*/
+
+@media screen and (max-width:1286px){
+    .action__center{
+        padding-left:1%;
+        padding-right:1%;
+    }
+}
+
+/*max-width:352*/
+
+@media screen and (max-width:352px){
+    .action__all-action-link {
+    padding: 10px 20px 10px 20px;
+    font-size: 1.20rem;
+}
+}

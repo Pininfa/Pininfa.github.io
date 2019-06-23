@@ -1,0 +1,386 @@
+/*max-width 1366px*/
+@media screen and (max-width:1366px){
+            /*menu*/
+     .contact{
+        margin-left: 30px;
+    }
+    .search{
+        margin-left: 73px;
+}
+
+/*max-width 1286px*/
+@media screen and (max-width:1286px){
+        /*header*/
+    header .center{
+        position: relative;
+        padding: 0 2.5% 24px 2.5%;
+    }
+    
+                /*equipment-block*/
+.equipment-block {
+    justify-content: space-between;
+    padding: 0 1%;
+    }
+
+                 /*equipment-box*/
+    
+.equipment-box{
+    width:28%;
+}
+
+.equipment-box{
+    margin-right: 0;    
+    }
+}
+
+/*max-width 1269px*/
+@media screen and (max-width:1269px){
+            /*menu*/
+    .icon-menu__bar{
+        cursor: pointer;
+        font-size: 45px;
+    }
+     .contact{
+        margin-top:42;
+        margin-left: 15%;
+    }
+    .search{
+        margin-left: 15%;
+    }
+    .icon-menu{
+        display: block;
+        margin:43px 0 0 10%;
+        
+    }
+    
+}
+
+            /*max-width:1207px*/
+
+@media screen and (max-width:1207px){
+        /*margin for icon-menu*/
+  .icon-menu{
+        margin:43px 0 0 9%;
+        
+    }
+}
+
+            /*max-width:1187px*/
+
+@media screen and (max-width:1187px){
+            /*margin for search*/
+    .search{
+        margin-left: 10%;
+    }
+}
+
+
+                /*max-width:1099px*/
+
+@media screen and (max-width:1099px){
+        /*margin for contact*/
+     .contact{
+        margin-left: 10%;
+    }
+                  /*equipment-box*/
+    
+    .equipment-box{
+    width:45%;
+}
+    .equipment-box__title{
+        text-align: center;
+    } 
+    
+}
+               
+        /*max-width:1192px*/
+@media screen and (max-width:1192px){
+        /*margin for contact*/
+      .contact{
+        margin-left: 9%;
+    }
+    /*margin for search*/
+    .search{
+        margin-left: 10%;
+    }
+    /*margin for icon-menu*/
+    .icon-menu{
+        margin:43px 0 0 8%;
+        
+    }
+    /*equipment__title*/
+    .equipment__title{
+        font-size:2rem;
+    }
+    
+}
+    
+    
+        /*max-width:1024px*/
+@media screen and (max-width:1024px){
+    /*margin for search*/
+    .search{
+        margin-left: 10%;
+    }
+    /*margin for icon-menu*/
+    .icon-menu{
+        margin:43px 0 0 9%;
+        
+    }
+    
+}
+
+            /*max-width:1020px*/
+@media screen and (max-width:1020px){
+        /*margin for contact*/
+      .contact{
+        margin-left: 8%;
+    }
+    /*margin for search*/
+    .search{
+        margin-left: 8%;
+    }
+    /*margin for icon-menu*/
+    .icon-menu{
+        margin:43px 0 0 8%;
+        
+    }
+    /*equipment__title*/
+    .equipment__title{
+        font-size:2rem;
+    }
+    
+}
+    /*max-width:953px*/
+@media screen and (max-width:953px){
+      .contact{
+        margin-left: 7%;
+    }
+    /*margin for search*/
+    .search{
+        margin-left: 7%;
+    }
+    /*margin for icon-menu*/
+    .icon-menu{
+        margin:43px 0 0 7%;
+        
+    }
+     }
+    
+    
+        /*max-width:919px*/
+@media screen and (max-width:919px){
+    header .center{
+        height:200px;
+    }
+      .contact{
+        margin-left: 7%;
+    }
+    /*position for search*/
+    .search{
+        position: absolute;
+        top:47%;
+        left:-4%;
+    }
+    .search__image {
+    width: 30px;
+    height: 30px;
+    margin: 0 11px 0 0;
+}
+  .search__text {
+    font-size: 2rem;
+}
+    /*position for icon-menu*/
+    .icon-menu{
+        position: absolute;
+        top:0;
+        left:84%;
+        
+    }
+    
+                 /*equipment-box*/
+    
+.equipment-box{
+    width:28%;
+}
+     }
+    
+    
+        /*max-width:900px*/
+    
+@media screen and (max-width:900px){
+    
+                /*equipment-box*/
+    .equipment-box{
+    width:43%;
+}
+     }
+    
+    /*max-width:900px*/
+ @media screen and (max-width:650px){
+    
+                /*equipment-box*/
+    .equipment-box{
+    width:80%;
+}
+                    /*equipment-block*/
+.equipment-block {
+    justify-content: center;
+    padding: 0 2.5%;
+    }
+     }   
+
+    
+    
+    
+    
+    /*max-width:745px*/
+    
+@media screen and (max-width:745px){
+    header .center{
+        height: auto;
+        flex-direction: column;
+    }
+    .search{
+        position: static;
+        margin: 45px 0 20px 131px;
+    }
+    
+    .company-name {
+    position: absolute;
+    top: 8%;
+    left: 35%;
+    margin: 0;
+}
+   .contact {
+    margin-left: 20%;
+}
+    .number-phone__link {
+    font-size: 3rem;
+}
+    .number-phone__image {
+    width: 35px;
+}
+    .adress__text {
+    font-size: 1.5rem;
+}
+   .adress__image {
+    width: 20px;
+    height: 26px;
+} 
+    .schedule__text {
+    font-size: 1.5rem;
+}
+    .schedule__image {
+    width: 20px;
+    height: 20px;
+}
+    
+    
+    
+    /*550px*/
+   @media screen and (max-width:550px){
+       .company-name {
+    left: 22%;
+}
+       .company-name__title {
+    font-size: 2.5rem;
+}
+      .company-name__description {
+    font-size: 0.5rem;
+} 
+        .contact {
+    margin-left: 11%;
+    margin-top: 95px;
+}
+       .search {
+    margin: 45px 0 20px 52px;
+}
+   
+       .icon-menu {
+    left: 71%;
+    top:-11px;
+}
+       .number-phone__image{
+           width: 24px;
+       }
+       .number-phone__link{
+           font-size:2rem;
+       }
+          .adress__text {
+    font-size: 1.1rem;
+}
+        .schedule__text {
+    font-size: 1.1rem;
+}
+       .logo {
+    margin: 20px 0 0 0;
+}
+       .logo__img{
+           width:15%;
+       }
+       
+       
+       /*.equipment__title*/
+.equipment__title {
+    font-size: 1.8rem;
+}
+       
+    }
+    
+    
+    
+     /*320px*/
+   @media screen and (max-width:320px){
+       .company-name {
+    left: 22%;
+}
+       .company-name__title {
+    font-size: 1.8rem;
+}
+      .company-name__description {
+    font-size: 0.4rem;
+} 
+        .contact {
+    margin-left: 11%;
+    margin-top: 95px;
+}
+       .search {
+    margin: 45px 0 20px 30px;
+}
+   
+       .icon-menu {
+    left: 71%;
+    top:-11px;
+}
+       .number-phone__image{
+           width: 24px;
+       }
+       .number-phone__link{
+           font-size:2rem;
+       }
+          .adress__text {
+    font-size: 1.1rem;
+}
+        .schedule__text {
+    font-size: 1.1rem;
+}
+       .logo {
+    margin: 36px 0 0 0;
+}
+       .logo__img{
+           width:15%;
+       }
+       .icon-menu__bar {
+    font-size: 40px;
+}
+       
+        /*.equipment__title*/
+.equipment__title {
+    font-size: 1.3rem;
+} 
+       
+       
+    }
+    
+   
