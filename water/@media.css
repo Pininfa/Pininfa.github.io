@@ -1,0 +1,129 @@
+@media (max-width: 1280px) {
+    .block__left-text {
+    margin: 40px 70px 0 70px;
+}
+    
+@media (max-width: 1050px) {
+    #next,#back{
+        display: none;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    /*block left*/
+    
+    .block__left-color {
+        margin: 60px auto 25px auto;
+    }
+    .block__left{
+      height: 100vh;
+}
+    .block__left-text {
+    margin: 40px auto 0 auto;
+}
+    #btn__water__order{
+        cursor: pointer;
+        display: inline-block;
+        margin: 68px 0 60px 0;
+}
+    
+    /*block right*/
+    
+    .form-line-one{
+        margin: 29px 0 0 0;
+        flex-direction: column;
+    }
+    .form-line-one input{
+        width:100%;
+    }
+    .form-line-two{
+        flex-direction: column;
+        margin: 0;
+    }
+    .form-line-two input{
+        width:100%;
+    }
+    .block__right{
+        margin:0;
+        padding: 30px 20px 0 20px;
+    }
+    .block__right__one{
+        height: 100vh;
+    }
+    .block__right__one p{
+        margin: 0;
+    }
+    .check {
+        margin: 30px 0 0 0;
+}
+    #wrapper__btn__back{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    #btn__ahead__block{
+     display: flex;
+        justify-content: center;
+    }
+    #btn__ahead{
+        cursor: pointer;
+        display:inline-block;
+        margin: 133px auto 0 auto;
+}
+    .btn__ahead__active{
+        background:#418DE8;
+        transition: 0.5s;
+    }
+    #lastname{
+        margin: 0 0 30px 0;
+    }
+    #phone{
+        margin: 0 0 30px 0;
+    }
+    #email{
+        margin: 0 0 30px 0;
+    }
+    /*container two*/
+    #first__line{
+        display: none;
+    }
+    
+    .btn__back{
+        margin: 25px 0 30px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container__two {
+        height: 100vh;
+        margin:0;
+        display: flex;
+        flex-direction: column;
+}
+    /*container two*/
+    .water{
+        margin: -22px 0 0 0;
+    }
+    .container__two{
+        height: 100vh;
+    }
+    #water__element__selection {
+    justify-content: space-between;
+}
+    .number__selection {
+    justify-content: space-between;
+}
+    #block__timing {
+    justify-content: space-between;
+}
+    #block__timing {
+    margin: 10px 0 30px 0;
+}
+    
+    
+    .time__of__delivery{
+     margin: 0 0 0 0;   
+    }
+    
+    
+}

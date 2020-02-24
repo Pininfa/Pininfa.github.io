@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="@media.css">
+    <title>Вода</title>
+  </head>
+  <body>
+      <div class="wrapper">
+          <!--block left-->
+          <div class="block__left">
+              <div class="block__left-color">
+                <div class="block__left-images">
+                  </div>
+              </div>
+              
+              
+              <h1>Чистая вода</h1>
+              
+              <div class="block__left-text">
+              <p>Питьевая вода, предназначенная для ежедневного потребления, идеально подходит для кулеров. Закажите доставку воды и мы привезем её на дом или в офис.</p>
+          </div>
+              <a id="btn__water__order" href="#block__right">Заказать воду</a>
+          </div>
+          
+          
+          
+                            <!--block__right-->
+          <div class="block__right" id="block__right">
+              <!--block right first-->
+              <div id="blockRightFirst" class="blockEnable">
+              <div class="block__right__one">
+              <p>Заполните данные<p>
+              
+            <form action="/" method="post">
+                <div class="form-line-one">
+                    <input id="lastname" class="form-control" type="text" placeholder="Иванов Иван Иванович" required>
+                    
+                    <input id="email" type="email" placeholder="E-mail" required>
+                </div>
+                <div class="form-line-two">
+                    <input id="phone" class="form-control" type="tel" placeholder="+7 (xxx) xxx-xx-xx" required>
+                    <input type="text" class="form-control" id="address" placeholder="Адрес" required>
+                </div>
+                <div class="check" name="check">
+                    <input type="checkbox" class="form-control" name="check" id="checkboxValidation">
+                    <label for="check" class="form-control" id="checkLabel">Я согласен(a) на <a href="#">обработку персональных данных</a></label>
+                </div>
+            </form>
+                  <div id="btn__ahead__block">
+                    <a id="btn__ahead" href="#containerTwo">Далее</a>
+                  </div>
+              </div>
+              <hr id="first__line">
+              
+              <!--container__two-->
+          <div class="container__two" id="containerTwo">
+          <div id="wrapper__btn__back">
+              <span class="btn__back"><a href="#block__right"><img src="img/btn__back.svg" alt="Назад"></a></span>
+              </div>
+              <div class="water">
+                  <h6>Вода</h6>
+                  <div id="water__element__selection">
+                      
+                      <!--first__element-->
+                      <div class="wrapper__element">
+                    <div id="first__element" class="water__choice">
+                        <div class="water__choice__wrapper">
+                            <div class="water__choice__text">
+                                <span class="liter">18,9 л</span> <span class="point">&nbsp;</span>
+                                
+                                <span class="pieces" id="pieces__first">1 шт</span>
+                            </div>
+                            <div class="water__choice__image">
+                                <img src = "img/18.9.svg" alt="18.9л" id="imgOne">
+                                <span class="price" id="first__price">220 &#8381;</span>
+                            </div>
+                        </div>
+                    </div>
+                      
+                      <div class="quantity" id="quantity_first__elemen">
+                          <span class="control"id="first__element__minus">-</span><span class="number__of__bottles" id="number__of__bottles__first">1</span><span class="control" id="first__element__plus">+</span>
+                        </div>
+                      </div>
+                      <!--second__element-->
+                      <div class="wrapper__element">
+                    <div id="second__element" class="water__choice">
+                        <div class="water__choice__wrapper">
+                            <div class="water__choice__text">
+                                <span class="liter">1,5 л</span> <span class="point">&nbsp;</span>
+                                
+                                <span class="pieces">6 шт</span>
+                            </div>
+                            <div class="water__choice__image">
+                                <span class="price">175 &#8381;</span>
+                            </div>
+                        </div>
+                    </div>
+                      
+                      <div class="quantity" id="quantity_second__elemen">
+                            <span class="control">-</span><span class="number__of__bottles">1</span><span class="control">+</span>
+                        </div>
+                      </div>
+                      <!--third element-->
+                     <div class="wrapper__element">
+                    <div id="third__element" class="water__choice">
+                        <div class="water__choice__wrapper">
+                            <div class="water__choice__text">
+                                <span class="liter">0,5 л</span> <span class="point">&nbsp;</span>
+                                
+                                <span class="pieces">12 шт</span>
+                            </div>
+                            <div class="water__choice__image">
+                                <span class="price">270 &#8381;</span>
+                            </div>
+                        </div>
+                        
+                        <div class="quantity" id="quantity_third__elemen">
+                            <span class="control">-</span><span class="number__of__bottles">1</span><span class="control">+</span>
+                        </div>
+                    </div>
+                      
+                      </div>
+                  </div>
+              
+              </div>
+              <hr>
+              <!--time__of__delivery-->
+              <div class="time__of__delivery">
+                  <h6>Дата и время доставки</h6>
+                  <div class="calendar">
+                  <span id="text__day">день</span>
+                  <div class="number__selection">
+                      <span id="next" ></span>
+                      <span class="day__of__the__month"><span>11</span><span>вт</span></span>
+                          <span class="day__of__the__month"><span >12</span><span>ср</span></span>
+                      <span class="day__of__the__month"><span>13</span><span>чт</span></span>
+                       <span class="day__of__the__month"><span>14</span><span>пт</span></span>
+                      <span class="day__of__the__month" id="weekend"><span>15</span><span>сб</span></span>
+                      <span class="day__of__the__month" id="weekend"><span>16</span><span>вс</span></span>
+                      <span id="back"></span>
+                  </div>
+                  </div>
+                  
+                  <!--time-->
+                  <div id="time">
+                  <span id="text__time">время</span>
+                  <div id="block__timing">
+                      <span class="timing" >10:00 - 11:00</span>
+                      <span class="timing" >12:00 - 13:00</span>
+                      <span class="timing" >15:00 - 16:00</span>
+                </div>
+              </div>
+                  
+                  
+          </div>
+              </div>
+              
+              
+              <!--container three-->
+              <hr>
+              
+              <div class="container__three">
+                  <div class="total">
+                      <p id="text__total">Итого</p>
+                      <span class="sum__block__secondSpan">220,<span class="sum__block__secondSpanGray">00 	
+&#8381;</span></span>
+                  
+                  </div>
+                  
+                  <hr id="solid__line">
+                  
+              </div>
+              
+              
+              <!--btn-->
+              <div class="container__four"  id="dd">
+                  <a id="submit">Заказать воду</a> 
+                  
+              </div>
+              </div>
+              
+              <!--block right second-->
+              <!--Order Status-->
+              <div id="blockRightSecond" сlass="blockDisable">
+              <div id="order__status">
+                  <span id="span__img"><img src="img/checkmark-circle-2.svg" alr=""></span><p id="order__status__p">Заказ оформлен</p>
+              </div>
+              <!--information about order-->
+              <div id="information__about__order">
+                  <div id="bottle__block">
+                  <span id="bottle">Б</span><span id="bottleSpanGray"></span>
+                  </div>
+                  <hr>
+                  <div id="delivery__number__block">
+                      <span id="delivery__number">12 Февраля</span><span id="deliveryNumberGray"></span>
+                  </div>
+                  <hr>
+                  <div id="delivery__address__block">
+                  <span id="delivery__address">Адрес 
+                      доставки</span><span id="deliveryAddressGray"></span>
+                      </div>
+                  <hr>
+                  <div id="phone__number__block">
+                      <span id="phone__number">Телефон</span><span id="phoneNumberGray"></span>
+              </div>
+          </div>
+              
+              <!---->
+              <div id="sum__block"><span id="sum__block__firstSpan">Итого</span><span class="sum__block__secondSpan">220,<span class="sum__block__secondSpanGray">00 	
+&#8381;</span></span></div>
+              <hr id="solid__line__two">
+              <div id="block__order__number__information">
+                  <p>Ваш заказ <span>№221</span> успешно оформлен. В ближайшее время по указанному телефону с Вами свяжется наш менеджер.</p>
+              </div>
+              <div id="new__order">
+                  <a id="btn__new__order">Новый заказ</a>
+              </div>
+              
+              </div>
+              
+          </div>
+          
+         
+          
+      </div>
+      
+      <script src="js.js"></script>
+  </body>
+</html>
